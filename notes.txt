@@ -5,3 +5,22 @@ venv\Scripts\activate
 
 mac:
 source venv/bin/activate
+
+
+# run server:
+python3 server.py
+
+
+#stop server
+ctrl + c
+
+
+# deactivate the virtual env
+deactivate
+
+
+# push the changes
+git add .
+git commit -m "MESSAGE"
+git push
+
